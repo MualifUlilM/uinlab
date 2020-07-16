@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576273924481",
+    "firebase_url": "https://energibangsa-bcd4c.firebaseio.com",
+    "project_id": "energibangsa-bcd4c",
+    "storage_bucket": "energibangsa-bcd4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576273924481:android:9360236e77ad4cc87f6880",
+        "android_client_info": {
+          "package_name": "id.energibangsa.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576273924481-67ofpha5imtpq0nfm86g4oa9k4udurkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.energibangsa.android",
+            "certificate_hash": "9452142fb6e2fa49b54b9fd1ad58098e265402b2"
+          }
+        },
+        {
+          "client_id": "576273924481-8qo3098r37ovgree3jvadp2nkbe7hl0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3pDR0rznNJBnuqmI4-r-TBvYyUhijRBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576273924481-8qo3098r37ovgree3jvadp2nkbe7hl0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
