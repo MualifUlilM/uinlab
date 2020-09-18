@@ -1,6 +1,7 @@
 
-import 'package:energibangsa/loading_page.dart';
+import 'package:web_views/loading_page.dart';
 import 'package:flutter/material.dart';
+import 'home_page.dart';
 import 'loading_page.dart';
 
 void main() {
@@ -12,13 +13,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Energi Bangsa',
+      title: 'UNILIB',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        textTheme: TextTheme(
+          headline1: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Theme.of(context).primaryColor,
+
+          )
+        ),
+        // primarySwatch: Colors.blue,
+        primaryColor: Colors.lightBlue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SplashScreen(),
+      // home: SplashScreen(),
+      home: MyHomePage(title: 'UNILIB',),
     );
   }
 }

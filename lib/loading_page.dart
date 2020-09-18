@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   onDoneLoading()async{
     SchedulerBinding.instance.addPostFrameCallback((_) {
-      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (_)=>MyHomePage(title: "Energi Bangsa",)), (route) => false);
+      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (_)=>MyHomePage(title: "Web Views",)), (route) => false);
     });
     // Navigator.pushNamedAndRemoveUntil(context, '/pages', (route) => false);
   }
@@ -32,13 +32,15 @@ class _SplashScreenState extends State<SplashScreen> {
     return WillPopScope(
       onWillPop: (){},
           child: Scaffold(
-        backgroundColor: Color(0xFF0257A6),
+        // backgroundColor: Color(  ,
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.asset("assets/img/energibangsa.png"),
+              // Image.asset("assets/img/energibangsa.png"),
+              Text('Applikasi', style: Theme.of(context).textTheme.headline1,),
+
               CircularProgressIndicator(),
             ],
           ),
